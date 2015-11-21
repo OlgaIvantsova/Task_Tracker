@@ -1,0 +1,140 @@
+* {margin:0;
+   padding:0;
+   border:none;
+           box-sizing: border-box;
+      -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;}
+   
+html, body {
+     width:100%;
+	 min-height:100%;
+	 height:100%;
+     font:11px Arial;
+	 font-weight: bold;
+	 }
+header, section, footer, aside, nav, article, form, footer {
+    display: block;}
+a, a:hover, a:visited {
+	display: inline-block;
+	text-decoration: none;
+	color: #28749f;
+}
+a:hover {text-shadow: 1px 1px 1px;}
+ul li {list-style-type: none;}
+.clear {clear:both;
+     height:0px;
+     font-size:0px;
+     line-height:0px;
+     overflow:hidden;}
+.container {
+  	max-width: 1200px;
+  	width: 80%;
+  	height: 100%;
+  	margin: 0 auto;
+	background:#d8dbdd;
+	border:1px solid #c1c1c1;
+    border-radius:15px;
+   }
+.sidebar {
+	float:left;
+	width: 20%;
+	height: 100%;
+	padding-top: 5px;
+}  
+.users-wrap, .priority {
+	display: inline-block;
+	width: 100%;
+	height: 50%;
+	padding: 10px;
+}
+h3 {
+	text-align: center;
+	padding-top: 10px;
+}
+.users-wrap {border-bottom: 1px solid #c1c1c1;} 
+.users-wrap li  a{font-size: 14px;}
+.content {
+	position: relative;
+	float: right;
+	width: 80%;
+	height: 100%;
+	padding: 20px;
+	border-left:1px solid #c1c1c1;
+}
+.add {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+.content a {
+	display: inline-block;
+	color: #28749f;
+	padding: 5px;
+}
+.cloud a{position:relative;}
+.add a {
+	display: inline-block;
+	background: #00ad83;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	color: #fff;
+	font: 50px Times;
+	line-height: 60px;
+	padding:0;
+}
+.add-btn {
+	display: inline-block;
+	padding: 5px;
+}
+.add-btn  a{
+	display: inline-block;
+	background: #00ad83;
+	color:#fff;
+	border-radius:3px;
+	padding: 5px;
+	}
+.add a:hover, .add-btn  a:hover {
+	background:#08c597;
+	text-shadow:none;
+}
+div.task {
+	width: 100%;
+	border: 1px solid #c1c1c1;
+	border-radius:15px;
+	padding:5px;
+	margin-top:15px;
+	color: Navy;
+}
+.btn-col {
+	float: left;
+}
+ul.btn-col li {
+	display: block;
+    text-align: center;
+}
+ul.btn-col li a {display: block;}
+.panel{
+	text-align: center;
+}
+.panel > div {
+	display: inline-block;
+    margin: 5px;
+    padding: 3px;
+	border: 1px dashed grey;
+	border-radius:5px;
+}
+.form {
+	width: 0px;
+	height: 500px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 10;
+	background: Grey;
+	border-radius:15px;
+}
+form {padding: 10px;}
+
+

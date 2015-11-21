@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Task Tracker</title>
+	<!--<link rel="stylesheet" href="http://services.web-manufacture.net/Styles/System.default.css"/>-->
+	<link rel="stylesheet" href="style.css">
+	<!--<script type="text/javascript" src="http://services.web-manufacture.net/Base/v1.5?join=true"></script>-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="script2.js"></script>
+  </head>
+<body>
+   <div class="container">
+		<div class=sidebar>
+			<h3>Users</h3>
+			<ul class="users-wrap"></ul>
+			<ul class="priority"></ul>
+		</div>
+		<div class="content">
+			<div class="cloud"></div>
+			<input type="text" class="tag-name" name="New Tag"></input>
+			<div class="add-btn"><a href="#" id="add_tag">Add new tag</a></div>
+			<div class="add"><a href="#" id="add_task">+</a></div>
+			<div class="tasks-wrap" id="tasks_wrap"></div>
+			<div class="form">
+				<h3>Add task</h3>
+				<form enctype="text/plain">
+					<p>Title:</p>
+					<input type="text" name="title" size="45" maxlength="25">
+					<p>User:</p>
+					<input type="text" name="user" id="drop_user" size="45" maxlength="25">
+					<p>Tags:</p>
+					<input type="text" name="tag" id="drop_tag" size="45" maxlength="25">
+					<p>ID:</p>
+					<input type="text" name="ID" size="45" maxlength="25">
+					<p>Priority:</p>
+					<input type="text" name="priority" size="45" maxlength="25">
+					<p>Description:</p>
+					<textarea name="description" cols="35" rows="10" maxlength="5000"></textarea>
+					<div>
+					<div class="add-btn"><a href="#" id="save">Save</a></div>
+					<div class="add-btn"><a href="#" id="cancel">Cancel</a></div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+</body>
+</html>
